@@ -1,4 +1,5 @@
 let books = []
+let editIndex = -1;
 
 class Book {
                     constructor(bookName,authorName,bookDescription,pagesNumber) {
@@ -64,3 +65,4 @@ function editBook(index) {
 
   document.getElementById("addBtn").innerText = "Update Book";
 }
+
